@@ -1,0 +1,16 @@
+header h1{
+    letter-spacing: 7px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin: 20px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 10px;   
+}
