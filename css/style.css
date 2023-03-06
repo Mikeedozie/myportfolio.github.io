@@ -1,16 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 header h1{
     letter-spacing: 7px;
     text-align: center;
     border-bottom: 1px solid black;
-    padding: 5px;
-    margin: 20px;
+    padding: 30px;
 }
-nav ul li{
-    list-style: none;
+nav{
+    padding: 30px;
 }
 nav ul{
     display: flex;
-    flex-direction: row;
+    text-align: center;
     align-items: center;
-    flex: 10px;   
+    justify-content: center;
+    gap: 50px;
+    
+    
+}
+nav ul li a{
+    color: #000;
+}
+nav ul li{
+    list-style-type: none;
+    transition-property: background, border, color, border-radius;
+}
+nav ul li a:hover{
+    background-color: #a3b2ec;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    transition: .5s ease-in-out;
+}
+nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.author{
+     width: 150px;
+     height: 20%;
+     border-radius: 75%;
+     
+}
+p{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+}
+section h2{
+    text-align: center;
+}
+
+section{
+    padding: 30px;
+    margin: 0 20px;
+}
+.active{
+    background-color: #a3b2ec;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 3px;
 }
