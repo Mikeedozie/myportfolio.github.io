@@ -65,3 +65,24 @@ section{
     border: 1px solid transparent;
     border-radius: 3px;
 }
+
+
+figure{
+    display: flex;
+    
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.image:hover{
+    width: 100%;
+    transition: 1s;
+    margin: auto;
+}
+footer{
+    border-top: 1px solid black;
+}
