@@ -7,6 +7,9 @@ header h1{
     text-align: center;
     border-bottom: 1px solid black;
     padding: 30px;
+    position: sticky;
+    background: #fff;
+    
 }
 nav{
     padding: 30px;
@@ -16,7 +19,7 @@ nav ul{
     text-align: center;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     
     
 }
@@ -30,7 +33,6 @@ nav ul li{
 nav ul li a:hover{
     background-color: #a3b2ec;
     color: white;
-    border: 1px solid transparent;
     border-radius: 3px;
     transition: .5s ease-in-out;
 }
@@ -53,6 +55,9 @@ p{
 }
 section h2{
     text-align: center;
+    padding: 10px;
+    margin: 5px;
+     
 }
 
 section{
@@ -85,4 +90,47 @@ figure{
 }
 footer{
     border-top: 1px solid black;
+    position: sticky;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 480px) {
+    figure{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .image{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    nav ul{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        
+        
+    }
+}
+p:first-letter{
+    color: red;
+    font-weight: 900;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+footer a{
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+footer i{
+    font-size: 40px;
 }
