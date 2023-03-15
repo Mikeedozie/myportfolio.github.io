@@ -9,12 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/e9c68587d0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Edozie Odigwe</title>
 </head>
 
 <body>
-    <header>
+    <header id="top">
         <div class="title">
             <h1>My Portfolio</h1>
         </div>
@@ -23,7 +25,14 @@
         <nav>
             <ul>
                 <li><a href="#about" class="active">About me</a></li>
-                <li><a href="#work">Work</a></li>
+                <div class="work">
+                    <li><a href="#work">Work</a></li>
+                    <div class="titles">
+                    <a href="">Frontend</a>
+                    <a href="">Backend</a>
+                    </div>
+
+                </div>
                 <li><a href="#projects">Projects</a></li>
             </ul>
         </nav>
@@ -32,7 +41,7 @@
 
         <section class="aboutme">
             <h2 id="about">About Me</h2>
-            <p><img src="edozie.jpg" alt="Edozie odigwe" class="author">A passionate software engineer with experience
+            <img src="edozie.jpg" alt="Edozie odigwe" class="author"><p>A passionate software engineer with experience
                 in backend development 1yr+. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ut eveniet hic
                 error corporis illum repellendus, sint vero pariatur dolores natus dignissimos ratione, reiciendis
                 recusandae ipsam consequuntur rerum consectetur praesentium Lorem ipsum dolor sit, amet consectetur
@@ -55,8 +64,9 @@
             <h2 id="projects">Projects</h2>
 
             <figure>
-                <a href="https://myprojects--odigweedozie.repl.co/comparison.html" target="_blank"><img src="tables.png" alt="" class="image">
-                    
+                <a href="https://myprojects--odigweedozie.repl.co/comparison.html" target="_blank"><img src="tables.png"
+                        alt="" class="image">
+
                 </a>
 
 
@@ -68,7 +78,7 @@
                 <a href="https://myprojects--odigweedozie.repl.co/iframes.html" target="_blank"><img src="iframe.png"
                         alt="" class="image"></a>
             </figure>
-
+            <a href="#top" class="top">Top</a>
         </section>
     </main>
     <footer>
