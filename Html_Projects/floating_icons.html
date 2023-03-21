@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            .icons{
+                padding: 1rem;
+                display: flex;
+                flex-direction: row;
+                gap: 4rem;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
+            a{
+                margin: 1rem;
+                font-size: 3rem;
+                transition-property: height;
+            }
+            i{
+                padding: 1rem;
+            }
+            i:hover{
+                transition: height 3s linear;
+                height: 200px;
+            }
+            .fa-twitter::after{
+                content: "Twitter";
+                
+                display: none;
+            }
+            .fa-twitter:hover::after{
+                display: block;
+                width: auto;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="icons">
+    <a href="https://www.twitter.com/@Edozie_Odigwe"
+      >
+      <i class="fa-brands fa-twitter"></i
+    >
+</a>
+    <a href="https://www.facebook.com/edozie.odigwe.3"
+      ><i class="fa-brands fa-facebook"></i
+    ></a>
+    <a href="https://www.twitter.com/@Edozie_Odigwe"
+      ><i class="fa-brands fa-instagram"></i
+    ></a>
+    <a href="https://wa.me/08160902127"
+      ><i class="fa-brands fa-whatsapp"></i
+    ></a>
+</div>
+  </body>
+</html>

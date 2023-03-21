@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: #000;
+        }
+        @keyframes glow{
+            0%{
+                box-shadow: 0px 0px 20px 10px rgb(125, 255, 3);
+            }
+            25%{
+                box-shadow: 0px 0px 20px 12px rgb(125, 255, 3);
+            }
+            50%{
+                box-shadow: 0px 0px 20px 15px rgb(125, 255, 3);
+            }
+            100% {
+                box-shadow: 0px 0px 20px 20px rgb(125, 255, 3);
+            }
+        }
+        .glow{
+            background: rgba(255, 4, 4, 0.808);
+            width: 10vw;
+            height: 10vw;
+            margin: 10rem auto;
+            border-radius: 50vw;
+            animation: glow 1s infinite alternate;
+      
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="glow"></div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+        }
+        nav ul li{
+            background: red;
+            padding: 7px;
+            border: 1px solid transparent;
+        }
+        .items {
+            display: none;
+            
+
+        }
+        .home{
+            display: block;
+        }
+
+        .hover:hover .items {
+            display: block;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <div class="hover">
+
+                <li class="work">Work</li>
+                <div class="items">
+                    <a href="#" class="home">Frontend</a>
+                    <a href="#" class="home">Backend</a>
+                </div>
+            </div>
+            <li>Address</li>
+        </ul>
+    </nav>
+</body>
+
+</html>
